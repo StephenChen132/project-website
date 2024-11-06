@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        #dice {
+            font-size: 100px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        h1{
+            cursor: pointer;
+            transition:0.3s;
+        }
+        h1:hover {
+            transform: scale(1.2);
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text" onclick="change()">Rood</h1>
+
+    <div id="dice">🎲</div>
+    <button onclick="rollDice()">Roll the Dice</button>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

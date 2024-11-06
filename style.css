@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.main-nav{
+    background-color: aqua;
+    border-style: groove;
+    border-bottom-width: 10px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-menu > li{
+    position: relative;
+}
+
+.nav-menu a {
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+.nav-menu a:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+
+li{
+    font-size: 20px;
+}
+
+
+.dropdown{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    border-style: groove;
+    border-bottom-width: 10px;
+}
+
+.dropdown li a{
+    padding: 10px 20px;
+}
+
+.nav-menu li:hover .dropdown{
+    display: block;
+}
+
+/*achtergrond*/
+
+.homepage-title {
+    font-size: 100px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top: 50px;
+    height: 50vw;
+    width: 100%;
+}
+
+.images, .images-2, .images-3, .images-4{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: dashed;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.text-2, .text-3, .text-4{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 25px;
+    
+}
+
+/*Introductie*/
+
+section{
+    margin: auto;
+}
+
+.background-info{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 65%;
+    height: 26vw;
+    margin-right: 50px;
+    margin-top: 65px;
+    float: right;
+    overflow: hidden;
+}
+
+p{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 30px;
+}
+
+.description{
+    margin-top: 40px;
+}
+
+.name-border{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    background-color: antiquewhite;
+    height: 2vw;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: -5px;
+
+}
+
+.profile-container{
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    height: 47vw;
+}
+
+.profile{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    border-radius: 20px;
+    width: 25%;
+    height: 11vw;
+    margin-left: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-2{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    border-radius: 20px;
+    width: 25%;
+    height: 11vw;
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flex{
+    flex-direction: row;
+    display: flex;
+    margin-top: 60px;
+}
+
+.profile-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-image-2{
+    width: 100%;
+    object-fit:fill;
+    height: 13vw;
+}
+
+/*regels*/
+
+.container-1{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 99,9%;
+    height: 20rem;
+}
+
+.regels-1{
+    height: 10vw;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+/*ziekmelding*/
+
+.container-3{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 99,9%;
+    height: 43rem;
+}
+
+.regels-1{
+    height: 10vw;
+    font-size: 90px
+
+}
+
+/*veiligheid*/
+
+.container-4{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 99,9%;
+    height: 47rem;
+}
+
+.regels-1{
+    height: 10vw;
+    font-size: 90px
+
+}
+
+/*BSA*/
+.container-5{
+    border-style: groove;
+    border-width: 6px;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 99,9%;
+    height: 52rem;
+}
+
+/*Ouderportal*/
+.titel {
+  font-size: 100px;
+  text-align: center;
+}
+
+.titel-2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.images-12 {
+    justify-content: center;
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.beschrijving {
+    text-align: center;
+    font-size: 25px;
+}
